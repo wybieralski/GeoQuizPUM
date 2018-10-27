@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <string name="question_stolica_polski">Czy Warszawa jest stolicą Polski?</string>
+    <string name="question_stolica_dolnego_slaska">Czy Świdnica jest stolicą Dolnego Śląska?</string>
+    <string name="question_wisla">Czy Wisła jest najdłuższą rzeką \n Polski?</string>
+    <string name="question_sniezka">Czy Śnieżka to najwyższy szczyt \n Karkonoszy?</string>
+
+    <string name="correct_toast">Dobrze!</string>
+    <string name="incorrect_toast">Źle!</string>
+
+</resources>
