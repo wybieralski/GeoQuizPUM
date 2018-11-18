@@ -143,6 +143,17 @@ public class MainActivity extends AppCompatActivity {
             mQuestionNumber = (mQuestionNumber + 1);
             updateQuestion();
         }
+    // if it's end, run ResultActivity
+
+        if (mQuestionNumber == mQuestionBank.length-1){
+            Intent intent = new Intent(MainActivity.this, ResultsActivity.class);
+            Bundle b = new Bundle();
+            b.putInt("score", mScore); //Your id
+            b.putInt("number", mQuestionBank.length); //Your id
+            intent.putExtras(b); //Put your id to your next Intent
+            startActivity(intent);
+            finish();
+        }
 
     }
 
